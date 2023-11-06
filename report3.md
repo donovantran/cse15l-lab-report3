@@ -82,5 +82,7 @@ A input that doesn't provide a failure-inducing input could be:
 ```
 int[] input = {9};
 ```
-These are the 
+These are the failed input screenshots:
+![image](failtest.png)
+
 
