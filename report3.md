@@ -168,5 +168,28 @@ public void testReversed1(){
 The command that I am researching is the `grep` command. This command allows you to print out what is in a particular text file. In my case we use input direction to put the text files in `./technical` into a txt file called `find-results.txt`. Here are the options that I am researching.
 
 `--color`
+![image](color1.png)
+![image](color2.png)
+These images show what using the command `$ grep --color "pmed" find-result.txt` and `$ grep --color "plos" find-result.txt` does. They will highlight any of the files that contain the text "pmed" or "plos". This is extremely helpful when trying to highlight words that may be of importance when scanning through a document.
+
+---
+`-i`
+![image](case1.png)
+![image](case2.png)
+These image show what using the command `$ grep -i "pmed find-result.txt` and `$ grep -i "plos" find-result.txt` does. In this situation it doesn't do much because it is suppose to search through the text file and output out the inputed string in the command while igorning the case that it was inputed and searched for. This could be extremely helpful when searching text files from different users that may use different case structures.
+
+---
+`-c`
+![image](lines1.png)
+![image](lines2.png)
+The images above shows the output of what using `$ grep -c "pmed" find-result.txt` and `$ grep -c "plos" find-result.txt` gives. This goes through the document and looks for how many lines contain the inputed string and counts it up. It will then output the total amount of lines where the string has matched. This is extremely useful when going through a file where you need to quickly count up the amount of lines.
+
+---
+`-n`
+![image](number1.png)
+![image](number2.png)
+The last command that I researched was the `-n` command which numbers the lines that contained the search pattern. In this case I used the command `$ grep -n "pmed" find-result.txt` and `$ grep -n "plos" find-result.txt` which numbered the lines in the output in the picutre. This is extremely useful when tying to number out a list with a given pattern.
+
+*This imformation was found on the website: https://www.digitalocean.com/community/tutorials/grep-command-in-linux-unix*
 
 
